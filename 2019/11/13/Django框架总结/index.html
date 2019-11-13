@@ -6,16 +6,16 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="http://yoursite.com">
-  <title>Hello World | Hexo</title>
+  <title>Django框架总结 | Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
+  <meta name="description" content="title: Django框架总结date: 2019-11-13 18:19:55tags:Django框架总结创建Django项目(pycharm)一、项目名    二、anaconda环境!    三、App名    框架模块使用一、apps把所有的app都放在一个包中起名apps     1、apps.pyfrom django.apps import AppConfig  class">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Hello World">
-<meta property="og:url" content="http:&#x2F;&#x2F;yoursite.com&#x2F;2019&#x2F;11&#x2F;12&#x2F;hello-world&#x2F;index.html">
+<meta property="og:title" content="Django框架总结">
+<meta property="og:url" content="http:&#x2F;&#x2F;yoursite.com&#x2F;2019&#x2F;11&#x2F;13&#x2F;Django%E6%A1%86%E6%9E%B6%E6%80%BB%E7%BB%93&#x2F;index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
+<meta property="og:description" content="title: Django框架总结date: 2019-11-13 18:19:55tags:Django框架总结创建Django项目(pycharm)一、项目名    二、anaconda环境!    三、App名    框架模块使用一、apps把所有的app都放在一个包中起名apps     1、apps.pyfrom django.apps import AppConfig  class">
 <meta property="og:locale" content="en">
-<meta property="og:updated_time" content="2019-11-12T11:38:34.537Z">
+<meta property="og:updated_time" content="2019-11-13T11:04:15.690Z">
 <meta name="twitter:card" content="summary">
   
     <link rel="alternative" href="/atom.xml" title="Hexo" type="application/atom+xml">
@@ -152,39 +152,283 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            <article id="post-hello-world" class="article article-type-post " itemscope itemprop="blogPost">
+            <article id="post-Django框架总结" class="article article-type-post " itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
         
   
     <h1 class="article-title" itemprop="name">
-      Hello World
+      Django框架总结
     </h1>
   
 
         
-        <a href="/2019/11/12/hello-world/" class="archive-article-date">
-  	<time datetime="2019-11-12T11:38:34.537Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-11-12</time>
+        <a href="/2019/11/13/Django%E6%A1%86%E6%9E%B6%E6%80%BB%E7%BB%93/" class="archive-article-date">
+  	<time datetime="2019-11-13T11:04:15.690Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-11-13</time>
 </a>
         
       </header>
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+        <hr>
+<p>title: Django框架总结<br>date: 2019-11-13 18:19:55<br>tags:<br>Django框架总结<br>创建Django项目(pycharm)<br>一、项目名 </p>
+ 
+<p>二、anaconda环境! </p>
+ 
+<p>三、App名 </p>
+ 
+<p>框架模块使用<br>一、apps<br>把所有的app都放在一个包中起名apps </p>
+  
+<p>1、apps.py<br>from django.apps import AppConfig<br>  class IndexConfig(AppConfig):<br>name = ‘apps.index’</p>
+<p>一般会自动生成一个类,类名是app名首字母大写+Config,内容是app的路径用于在setting中注册apps,手动复制添加可自己修改然后手动添加到settin<br>的INSTALLED_APPS<br>INSTALLED_APPS = [<br>‘django.contrib.admin’,<br>‘django.contrib.auth’,<br>‘django.contrib.contenttypes’,<br>‘django.contrib.sessions’,<br>‘django.contrib.messages’,<br>‘django.contrib.staticfiles’,<br>‘apps.index.apps.IndexConfig’,<br>‘apps.user.apps.UserConfig’<br>]</p>
+<p>2、models.py<br>用于创建模型类<br>3、urls.py<br>设置浏览器请求访问url<br>from django.conf.urls import url<br>from apps.index.views import IndexView<br>urlpatterns = [<br>url(r’^index$’, IndexView.as_view(), name=’index’), # 首页<br>url(r’^$’, IndexView.as_view(), name=’index’), # 首页<br>]</p>
+<p>4、views.py<br>视图页<br>from django.shortcuts import render<br>from django.views.generic import View</p>
+<h1 id="Create-your-views-here"><a href="#Create-your-views-here" class="headerlink" title="Create your views here."></a>Create your views here.</h1><p>class IndexView(View):<br>“””首页”””<br>def get(self, request):<br>“””显示主页”””<br>return render(request, ‘index.html’)</p>
+<p>二、static<br>用于放静态文件css、js、图片等 </p>
+ 
+<p>三、templates<br>用来放前端的html页面 </p>
+ 
+<p>四、与项目同名包<br>1、settings.py<br>用来进行设置数据库,静态文件路径,app注册等。。<br>数据库 DATABASES<br>DATABASES = {<br>‘default’: {<br>‘ENGINE’: ‘django.db.backends.mysql’,<br>‘NAME’: ‘databasename’, # 数据库名<br>‘USER’: ‘root’, # 用户名<br>‘PASSWORD’: ‘123456’, # 密码<br>‘HOST’: ‘localhost’, # 主机名(数据库地址)<br>‘PORT’: 3306 # 端口<br>}<br>}</p>
+<p>MongDB<br>from pymongo import MongoClient # 导入mongdb模块</p>
+<h1 id="连接mongodb"><a href="#连接mongodb" class="headerlink" title="连接mongodb"></a>连接mongodb</h1><p>client = MongoClient(“mongodb://localhost:27017/“)<br>mydb = client[‘douban’] # 数据库名</p>
+<p>创建一个类接收settings中的mydb,然后再创建设置表对象<br>from dbpc.settings import mydb</p>
+<p>class Coll:<br>book_collection = mydb[‘book’]<br>av_collection = mydb[‘movie’]</p>
+<p>语言:中文 LANGUAGE_CODE<br>LANGUAGE_CODE = ‘zh-hans’<br>TIME_ZONE = ‘Asia/Shanghai’</p>
+<p>静态文件路径<br>STATIC_URL = ‘/static/‘<br>STATICFILES_DIRS = [os.path.join(BASE_DIR, ‘static’)]</p>
+<p>缓存设置:redis# Django的缓存配置<br>CACHES = {<br>“default”: {<br>“BACKEND”: “django_redis.cache.RedisCache”,<br>“LOCATION”: “redis://127.0.0.1:6379/9”,<br>“OPTIONS”: {<br>“CLIENT_CLASS”: “django_redis.client.DefaultClient”,}<br>}<br>}</p>
+<p>session设置 </p>
+<h1 id="配置session存储"><a href="#配置session存储" class="headerlink" title="配置session存储"></a>配置session存储</h1><p>SESSION_ENGINE = “django.contrib.sessions.backends.cache”<br>SESSION_CACHE_ALIAS = “default”</p>
+<p>发送邮件设置 </p>
+<h1 id="发送邮件配置"><a href="#发送邮件配置" class="headerlink" title="发送邮件配置"></a>发送邮件配置</h1><p>EMAIL_BACKEND = ‘django.core.mail.backends.smtp.EmailBackend’</p>
+<h1 id="smpt服务地址"><a href="#smpt服务地址" class="headerlink" title="smpt服务地址"></a>smpt服务地址</h1><p>EMAIL_HOST = ‘smtp.qq.com’EMAIL_PORT = 25</p>
+<h1 id="发送邮件的邮箱"><a href="#发送邮件的邮箱" class="headerlink" title="发送邮件的邮箱"></a>发送邮件的邮箱</h1><p>EMAIL_HOST_USER = ‘971861624@qq.com’</p>
+<h1 id="在邮箱中设置的客户端授权密码"><a href="#在邮箱中设置的客户端授权密码" class="headerlink" title="在邮箱中设置的客户端授权密码"></a>在邮箱中设置的客户端授权密码</h1><p>EMAIL_HOST_PASSWORD = ‘izqelofgslnrbcde’</p>
+<h1 id="收件人看到的发件人"><a href="#收件人看到的发件人" class="headerlink" title="收件人看到的发件人"></a>收件人看到的发件人</h1><p>EMAIL_FROM = ‘xx招生<a href="mailto:&#x39;&#55;&#x31;&#x38;&#54;&#x31;&#54;&#50;&#52;&#x40;&#113;&#113;&#46;&#99;&#111;&#109;">&#x39;&#55;&#x31;&#x38;&#54;&#x31;&#54;&#50;&#52;&#x40;&#113;&#113;&#46;&#99;&#111;&#109;</a>‘</p>
+<p>登录url </p>
+<h1 id="配置登录url地址"><a href="#配置登录url地址" class="headerlink" title="配置登录url地址"></a>配置登录url地址</h1><p>LOGIN_URL = ‘/user/login’</p>
+<p>*注:EMAIL_FROM&lt;&gt;中的邮箱必须与EMAIL_HOST_USER相同。<br>等等。。以后继续添加<br>2、urls.py<br>同apps中urls,在这里指向apps中的urls<br>from django.contrib import admin<br>from django.urls import path<br>from django.conf.urls import url, include<br>urlpatterns = [<br>path(‘admin/‘, admin.site.urls),<br>url(r’^user/‘, include((‘apps.user.urls’, ‘user’), namespace=’user’)), # 用户模块url(r’^’, include((‘apps.index.urls’, ‘index’), namespace=’index’)), # 首页模块<br>]</p>
+<p>五、manage.py<br>项目的执行文件,命令:<br>1、运行<br>runserver 127.0.0.1:8000<br>2、生成数据库<br>python manage.py makemigrations3、迁移文件生成表<br>python manage.py migrate<br>4、创建超级管理员<br>createsuperuser</p>
+  
+<p>在这里可设置运行命令。<br>如:runserver 127.0.0.1:8000<br>设置后,直接运行文件可启动项目<br>或者在pycharm中自带的终端进行运行 </p>
+ 
+<p>配置环境<br>如果还没配置环境,先安装anaconda<br>然后:file-&gt;settings-&gt;project:项目名-&gt;project Interpreter.<br>￼<br>￼<br>￼ <br>这三个都行,如第一个: </p>
+ 
+ 
+<p>在这里选择anaconda里的python.exe就行<br>拓展<br>一、模块拓展<br>1、自定义模型类 </p>
+ 
+<p>from django.db import models<br>  class BaseModel(models.Model):<br>‘’’模型抽象基类’’’<br>create_time = models.DateTimeField(auto_now_add=True, verbose_name=’创建时间’)<br>update_time = models.DateTimeField(auto_now=True, verbose_name=’更新时间’)<br>is_delete = models.BooleanField(default=False, verbose_name=’删除标记’)<br>class Meta: </p>
+<h1 id="说明是一个抽象模型类"><a href="#说明是一个抽象模型类" class="headerlink" title="说明是一个抽象模型类"></a>说明是一个抽象模型类</h1><p>abstract = True</p>
+<p>2、异步操作celery </p>
+ 
+<h1 id="使用celery"><a href="#使用celery" class="headerlink" title="使用celery"></a>使用celery</h1><p>from celery import Celery<br>from django.conf import settings<br>from django.core.mail import send_mail<br>import time<br>import os<br>import django<br>os.environ.setdefault(“DJANGO_SETTINGS_MODULE”,”dbpc.settings”)<br>django.setup()</p>
+<h1 id="创建一个celery类的实例对象"><a href="#创建一个celery类的实例对象" class="headerlink" title="创建一个celery类的实例对象"></a>创建一个celery类的实例对象</h1><p> app = Celery(‘celery_tasks.tasks’, broker=’redis://127.0.0.1:6379/8’)<br> # 定义任务函数<br>@app.task<br>def send_register_active_email(to_email, username, token):   <br>‘’’发送邮件’’’<br>subject = ‘欢迎信息’<br>message = ‘’<br>sender = settings.EMAIL_FROM<br>receiver = [to_email]<br>html_message = ‘<h1>%s, 欢迎您成为注册会员</h1>请点击下面链接激活您的账户<br/><a href="http://127.0.0.1:8000/user/active/%s" target="_blank" rel="noopener">http://127.0.0.1:8000/user/active/%s</a>‘send_mail(subject, message, sender, receiver, html_message=html_message)<br>time.sleep(5)<br>% (username, token, token)<br>运行命令:<br>celery -A celery_tasks.tasks worker -l info -P eventle</p>
+<p>​ *注:要是没有eventlet模块,要先安装。pip<br>未完待续。-Django框架总结<br>创建Django项目(pycharm)<br>一、项目名 </p>
+ 
+<p>二、anaconda环境! </p>
+ 
+<p>三、App名 </p>
+ 
+<p>框架模块使用<br>一、apps<br>把所有的app都放在一个包中起名apps </p>
+  
+<p>1、apps.py<br>from django.apps import AppConfig<br>  class IndexConfig(AppConfig):<br>name = ‘apps.index’</p>
+<p>一般会自动生成一个类,类名是app名首字母大写+Config,内容是app的路径用于在setting中注册apps,手动复制添加可自己修改然后手动添加到settin<br>的INSTALLED_APPS<br>INSTALLED_APPS = [<br>‘django.contrib.admin’,<br>‘django.contrib.auth’,<br>‘django.contrib.contenttypes’,<br>‘django.contrib.sessions’,<br>‘django.contrib.messages’,<br>‘django.contrib.staticfiles’,<br>‘apps.index.apps.IndexConfig’,<br>‘apps.user.apps.UserConfig’<br>]</p>
+<p>2、models.py<br>用于创建模型类<br>3、urls.py<br>设置浏览器请求访问url<br>from django.conf.urls import url<br>from apps.index.views import IndexView<br>urlpatterns = [<br>url(r’^index$’, IndexView.as_view(), name=’index’), # 首页<br>url(r’^$’, IndexView.as_view(), name=’index’), # 首页<br>]</p>
+<p>4、views.py<br>视图页<br>from django.shortcuts import render<br>from django.views.generic import View</p>
+<h1 id="Create-your-views-here-1"><a href="#Create-your-views-here-1" class="headerlink" title="Create your views here."></a>Create your views here.</h1><p>class IndexView(View):<br>“””首页”””<br>def get(self, request):<br>“””显示主页”””<br>return render(request, ‘index.html’)</p>
+<p>二、static<br>用于放静态文件css、js、图片等 </p>
+ 
+<p>三、templates<br>用来放前端的html页面 </p>
+ 
+<p>四、与项目同名包<br>1、settings.py<br>用来进行设置数据库,静态文件路径,app注册等。。<br>数据库 DATABASES<br>DATABASES = {<br>‘default’: {<br>‘ENGINE’: ‘django.db.backends.mysql’,<br>‘NAME’: ‘databasename’, # 数据库名<br>‘USER’: ‘root’, # 用户名<br>‘PASSWORD’: ‘123456’, # 密码<br>‘HOST’: ‘localhost’, # 主机名(数据库地址)<br>‘PORT’: 3306 # 端口<br>}<br>}</p>
+<p>MongDB Django框架总结<br>创建Django项目(pycharm)<br>一、项目名 </p>
+ 
+<p>二、anaconda环境! </p>
+ 
+<p>三、App名 </p>
+ 
+<p>框架模块使用<br>一、apps<br>把所有的app都放在一个包中起名apps </p>
+  
+<p>1、apps.py<br>from django.apps import AppConfig<br>  class IndexConfig(AppConfig):<br>name = ‘apps.index’</p>
+<p>一般会自动生成一个类,类名是app名首字母大写+Config,内容是app的路径用于在setting中注册apps,手动复制添加可自己修改然后手动添加到settin<br>的INSTALLED_APPS<br>INSTALLED_APPS = [<br>‘django.contrib.admin’,<br>‘django.contrib.auth’,<br>‘django.contrib.contenttypes’,<br>‘django.contrib.sessions’,<br>‘django.contrib.messages’,<br>‘django.contrib.staticfiles’,<br>‘apps.index.apps.IndexConfig’,<br>‘apps.user.apps.UserConfig’<br>]</p>
+<p>2、models.py<br>用于创建模型类<br>3、urls.py<br>设置浏览器请求访问url<br>from django.conf.urls import url<br>from apps.index.views import IndexView<br>urlpatterns = [<br>url(r’^index$’, IndexView.as_view(), name=’index’), # 首页<br>url(r’^$’, IndexView.as_view(), name=’index’), # 首页<br>]</p>
+<p>4、views.py<br>视图页<br>from django.shortcuts import render<br>from django.views.generic import View</p>
+<h1 id="Create-your-views-here-2"><a href="#Create-your-views-here-2" class="headerlink" title="Create your views here."></a>Create your views here.</h1><p>class IndexView(View):<br>“””首页”””<br>def get(self, request):<br>“””显示主页”””<br>return render(request, ‘index.html’)</p>
+<p>二、static<br>用于放静态文件css、js、图片等 </p>
+ 
+<p>三、templates<br>用来放前端的html页面 </p>
+ 
+<p>四、与项目同名包<br>1、settings.py<br>用来进行设置数据库,静态文件路径,app注册等。。<br>数据库 DATABASES<br>DATABASES = {<br>‘default’: {<br>‘ENGINE’: ‘django.db.backends.mysql’,<br>‘NAME’: ‘databasename’, # 数据库名<br>‘USER’: ‘root’, # 用户名<br>‘PASSWORD’: ‘123456’, # 密码<br>‘HOST’: ‘localhost’, # 主机名(数据库地址)<br>‘PORT’: 3306 # 端口<br>}<br>}</p>
+<p>MongDB<br>from pymongo import MongoClient # 导入mongdb模块</p>
+<h1 id="连接mongodb-1"><a href="#连接mongodb-1" class="headerlink" title="连接mongodb"></a>连接mongodb</h1><p>client = MongoClient(“mongodb://localhost:27017/“)<br>mydb = client[‘douban’] # 数据库名</p>
+<p>创建一个类接收settings中的mydb,然后再创建设置表对象<br>from dbpc.settings import mydb</p>
+<p>class Coll:<br>book_collection = mydb[‘book’]<br>av_collection = mydb[‘movie’]</p>
+<p>语言:中文 LANGUAGE_CODE<br>LANGUAGE_CODE = ‘zh-hans’<br>TIME_ZONE = ‘Asia/Shanghai’</p>
+<p>静态文件路径<br>STATIC_URL = ‘/static/‘<br>STATICFILES_DIRS = [os.path.join(BASE_DIR, ‘static’)]</p>
+<p>缓存设置:redis# Django的缓存配置<br>CACHES = {<br>“default”: {<br>“BACKEND”: “django_redis.cache.RedisCache”,<br>“LOCATION”: “redis://127.0.0.1:6379/9”,<br>“OPTIONS”: {<br>“CLIENT_CLASS”: “django_redis.client.DefaultClient”,}<br>}<br>}</p>
+<p>session设置 </p>
+<h1 id="配置session存储-1"><a href="#配置session存储-1" class="headerlink" title="配置session存储"></a>配置session存储</h1><p>SESSION_ENGINE = “django.contrib.sessions.backends.cache”<br>SESSION_CACHE_ALIAS = “default”</p>
+<p>发送邮件设置 </p>
+<h1 id="发送邮件配置-1"><a href="#发送邮件配置-1" class="headerlink" title="发送邮件配置"></a>发送邮件配置</h1><p>EMAIL_BACKEND = ‘django.core.mail.backends.smtp.EmailBackend’</p>
+<h1 id="smpt服务地址-1"><a href="#smpt服务地址-1" class="headerlink" title="smpt服务地址"></a>smpt服务地址</h1><p>EMAIL_HOST = ‘smtp.qq.com’EMAIL_PORT = 25</p>
+<h1 id="发送邮件的邮箱-1"><a href="#发送邮件的邮箱-1" class="headerlink" title="发送邮件的邮箱"></a>发送邮件的邮箱</h1><p>EMAIL_HOST_USER = ‘971861624@qq.com’</p>
+<h1 id="在邮箱中设置的客户端授权密码-1"><a href="#在邮箱中设置的客户端授权密码-1" class="headerlink" title="在邮箱中设置的客户端授权密码"></a>在邮箱中设置的客户端授权密码</h1><p>EMAIL_HOST_PASSWORD = ‘izqelofgslnrbcde’</p>
+<h1 id="收件人看到的发件人-1"><a href="#收件人看到的发件人-1" class="headerlink" title="收件人看到的发件人"></a>收件人看到的发件人</h1><p>EMAIL_FROM = ‘xx招生<a href="mailto:&#x39;&#55;&#x31;&#x38;&#54;&#x31;&#54;&#50;&#52;&#x40;&#x71;&#x71;&#46;&#x63;&#x6f;&#x6d;">&#x39;&#55;&#x31;&#x38;&#54;&#x31;&#54;&#50;&#52;&#x40;&#x71;&#x71;&#46;&#x63;&#x6f;&#x6d;</a>‘</p>
+<p>登录url </p>
+<h1 id="配置登录url地址-1"><a href="#配置登录url地址-1" class="headerlink" title="配置登录url地址"></a>配置登录url地址</h1><p>LOGIN_URL = ‘/user/login’</p>
+<p>*注:EMAIL_FROM&lt;&gt;中的邮箱必须与EMAIL_HOST_USER相同。<br>等等。。以后继续添加<br>2、urls.py<br>同apps中urls,在这里指向apps中的urls<br>from django.contrib import admin<br>from django.urls import path<br>from django.conf.urls import url, include<br>urlpatterns = [<br>path(‘admin/‘, admin.site.urls),<br>url(r’^user/‘, include((‘apps.user.urls’, ‘user’), namespace=’user’)), # 用户模块url(r’^’, include((‘apps.index.urls’, ‘index’), namespace=’index’)), # 首页模块<br>]</p>
+<p>五、manage.py<br>项目的执行文件,命令:<br>1、运行<br>runserver 127.0.0.1:8000<br>2、生成数据库<br>python manage.py makemigrations3、迁移文件生成表<br>python manage.py migrate<br>4、创建超级管理员<br>createsuperuser</p>
+  
+<p>在这里可设置运行命令。<br>如:runserver 127.0.0.1:8000<br>设置后,直接运行文件可启动项目<br>或者在pycharm中自带的终端进行运行 </p>
+ 
+<p>配置环境<br>如果还没配置环境,先安装anaconda<br>然后:file-&gt;settings-&gt;project:项目名-&gt;project Interpreter.<br>￼<br>￼<br>￼ <br>这三个都行,如第一个: </p>
+ 
+ 
+<p>在这里选择anaconda里的python.exe就行<br>拓展<br>一、模块拓展<br>1、自定义模型类 </p>
+ 
+<p>from django.db import models<br>  class BaseModel(models.Model):<br>‘’’模型抽象基类’’’<br>create_time = models.DateTimeField(auto_now_add=True, verbose_name=’创建时间’)<br>update_time = models.DateTimeField(auto_now=True, verbose_name=’更新时间’)<br>is_delete = models.BooleanField(default=False, verbose_name=’删除标记’)<br>class Meta: </p>
+<h1 id="说明是一个抽象模型类-1"><a href="#说明是一个抽象模型类-1" class="headerlink" title="说明是一个抽象模型类"></a>说明是一个抽象模型类</h1><p>abstract = True</p>
+<p>2、异步操作celery </p>
+ 
+<h1 id="使用celery-1"><a href="#使用celery-1" class="headerlink" title="使用celery"></a>使用celery</h1><p>from celery import Celery<br>from django.conf import settings<br>from django.core.mail import send_mail<br>import time<br>import os<br>import django<br>os.environ.setdefault(“DJANGO_SETTINGS_MODULE”,”dbpc.settings”)<br>django.setup()</p>
+<h1 id="创建一个celery类的实例对象-1"><a href="#创建一个celery类的实例对象-1" class="headerlink" title="创建一个celery类的实例对象"></a>创建一个celery类的实例对象</h1><p> app = Celery(‘celery_tasks.tasks’, broker=’redis://127.0.0.1:6379/8’)<br> # 定义任务函数<br>@app.task<br>def send_register_active_email(to_email, username, token):   <br>‘’’发送邮件’’’<br>subject = ‘欢迎信息’<br>message = ‘’<br>sender = settings.EMAIL_FROM<br>receiver = [to_email]<br>html_message = ‘<h1>%s, 欢迎您成为注册会员</h1>请点击下面链接激活您的账户<br/><a href="http://127.0.0.1:8000/user/active/%s" target="_blank" rel="noopener">http://127.0.0.1:8000/user/active/%s</a>‘send_mail(subject, message, sender, receiver, html_message=html_message)<br>time.sleep(5)<br>% (username, token, token)<br>运行命令:<br>celery -A celery_tasks.tasks worker -l info -P eventle</p>
+<p>​ *注:要是没有eventlet模块,要先安装。pip<br>未完待续。Django框架总结<br>创建Django项目(pycharm)<br>一、项目名 </p>
+ 
+<p>二、anaconda环境! </p>
+ 
+<p>三、App名 </p>
+ 
+<p>框架模块使用<br>一、apps<br>把所有的app都放在一个包中起名apps </p>
+  
+<p>1、apps.py<br>from django.apps import AppConfig<br>  class IndexConfig(AppConfig):<br>name = ‘apps.index’</p>
+<p>一般会自动生成一个类,类名是app名首字母大写+Config,内容是app的路径用于在setting中注册apps,手动复制添加可自己修改然后手动添加到settin<br>的INSTALLED_APPS<br>INSTALLED_APPS = [<br>‘django.contrib.admin’,<br>‘django.contrib.auth’,<br>‘django.contrib.contenttypes’,<br>‘django.contrib.sessions’,<br>‘django.contrib.messages’,<br>‘django.contrib.staticfiles’,<br>‘apps.index.apps.IndexConfig’,<br>‘apps.user.apps.UserConfig’<br>]</p>
+<p>2、models.py<br>用于创建模型类<br>3、urls.py<br>设置浏览器请求访问url<br>from django.conf.urls import url<br>from apps.index.views import IndexView<br>urlpatterns = [<br>url(r’^index$’, IndexView.as_view(), name=’index’), # 首页<br>url(r’^$’, IndexView.as_view(), name=’index’), # 首页<br>]</p>
+<p>4、views.py<br>视图页<br>from django.shortcuts import render<br>from django.views.generic import View</p>
+<h1 id="Create-your-views-here-3"><a href="#Create-your-views-here-3" class="headerlink" title="Create your views here."></a>Create your views here.</h1><p>class IndexView(View):<br>“””首页”””<br>def get(self, request):<br>“””显示主页”””<br>return render(request, ‘index.html’)</p>
+<p>二、static<br>用于放静态文件css、js、图片等 </p>
+ 
+<p>三、templates<br>用来放前端的html页面 </p>
+ 
+<p>四、与项目同名包<br>1、settings.py<br>用来进行设置数据库,静态文件路径,app注册等。。<br>数据库 DATABASES<br>DATABASES = {<br>‘default’: {<br>‘ENGINE’: ‘django.db.backends.mysql’,<br>‘NAME’: ‘databasename’, # 数据库名<br>‘USER’: ‘root’, # 用户名<br>‘PASSWORD’: ‘123456’, # 密码<br>‘HOST’: ‘localhost’, # 主机名(数据库地址)<br>‘PORT’: 3306 # 端口<br>}<br>}</p>
+<p>MongDB<br>from pymongo import MongoClient # 导入mongdb模块</p>
+<h1 id="连接mongodb-2"><a href="#连接mongodb-2" class="headerlink" title="连接mongodb"></a>连接mongodb</h1><p>client = MongoClient(“mongodb://localhost:27017/“)<br>mydb = client[‘douban’] # 数据库名</p>
+<p>创建一个类接收settings中的mydb,然后再创建设置表对象<br>from dbpc.settings import mydb</p>
+<p>class Coll:<br>book_collection = mydb[‘book’]<br>av_collection = mydb[‘movie’]</p>
+<p>语言:中文 LANGUAGE_CODE<br>LANGUAGE_CODE = ‘zh-hans’<br>TIME_ZONE = ‘Asia/Shanghai’</p>
+<p>静态文件路径<br>STATIC_URL = ‘/static/‘<br>STATICFILES_DIRS = [os.path.join(BASE_DIR, ‘static’)]</p>
+<p>缓存设置:redis# Django的缓存配置<br>CACHES = {<br>“default”: {<br>“BACKEND”: “django_redis.cache.RedisCache”,<br>“LOCATION”: “redis://127.0.0.1:6379/9”,<br>“OPTIONS”: {<br>“CLIENT_CLASS”: “django_redis.client.DefaultClient”,}<br>}<br>}</p>
+<p>session设置 </p>
+<h1 id="配置session存储-2"><a href="#配置session存储-2" class="headerlink" title="配置session存储"></a>配置session存储</h1><p>SESSION_ENGINE = “django.contrib.sessions.backends.cache”<br>SESSION_CACHE_ALIAS = “default”</p>
+<p>发送邮件设置 </p>
+<h1 id="发送邮件配置-2"><a href="#发送邮件配置-2" class="headerlink" title="发送邮件配置"></a>发送邮件配置</h1><p>EMAIL_BACKEND = ‘django.core.mail.backends.smtp.EmailBackend’</p>
+<h1 id="smpt服务地址-2"><a href="#smpt服务地址-2" class="headerlink" title="smpt服务地址"></a>smpt服务地址</h1><p>EMAIL_HOST = ‘smtp.qq.com’EMAIL_PORT = 25</p>
+<h1 id="发送邮件的邮箱-2"><a href="#发送邮件的邮箱-2" class="headerlink" title="发送邮件的邮箱"></a>发送邮件的邮箱</h1><p>EMAIL_HOST_USER = ‘971861624@qq.com’</p>
+<h1 id="在邮箱中设置的客户端授权密码-2"><a href="#在邮箱中设置的客户端授权密码-2" class="headerlink" title="在邮箱中设置的客户端授权密码"></a>在邮箱中设置的客户端授权密码</h1><p>EMAIL_HOST_PASSWORD = ‘izqelofgslnrbcde’</p>
+<h1 id="收件人看到的发件人-2"><a href="#收件人看到的发件人-2" class="headerlink" title="收件人看到的发件人"></a>收件人看到的发件人</h1><p>EMAIL_FROM = ‘xx招生<a href="mailto:&#57;&#55;&#x31;&#x38;&#x36;&#x31;&#x36;&#x32;&#52;&#64;&#x71;&#x71;&#x2e;&#x63;&#111;&#109;">&#57;&#55;&#x31;&#x38;&#x36;&#x31;&#x36;&#x32;&#52;&#64;&#x71;&#x71;&#x2e;&#x63;&#111;&#109;</a>‘</p>
+<p>登录url </p>
+<h1 id="配置登录url地址-2"><a href="#配置登录url地址-2" class="headerlink" title="配置登录url地址"></a>配置登录url地址</h1><p>LOGIN_URL = ‘/user/login’</p>
+<p>*注:EMAIL_FROM&lt;&gt;中的邮箱必须与EMAIL_HOST_USER相同。<br>等等。。以后继续添加<br>2、urls.py<br>同apps中urls,在这里指向apps中的urls<br>from django.contrib import admin<br>from django.urls import path<br>from django.conf.urls import url, include<br>urlpatterns = [<br>path(‘admin/‘, admin.site.urls),<br>url(r’^user/‘, include((‘apps.user.urls’, ‘user’), namespace=’user’)), # 用户模块url(r’^’, include((‘apps.index.urls’, ‘index’), namespace=’index’)), # 首页模块<br>]</p>
+<p>五、manage.py<br>项目的执行文件,命令:<br>1、运行<br>runserver 127.0.0.1:8000<br>2、生成数据库<br>python manage.py makemigrations3、迁移文件生成表<br>python manage.py migrate<br>4、创建超级管理员<br>createsuperuser</p>
+  
+<p>在这里可设置运行命令。<br>如:runserver 127.0.0.1:8000<br>设置后,直接运行文件可启动项目<br>或者在pycharm中自带的终端进行运行 </p>
+ 
+<p>配置环境<br>如果还没配置环境,先安装anaconda<br>然后:file-&gt;settings-&gt;project:项目名-&gt;project Interpreter.<br>￼<br>￼<br>￼ <br>这三个都行,如第一个: </p>
+ 
+ 
+<p>在这里选择anaconda里的python.exe就行<br>拓展<br>一、模块拓展<br>1、自定义模型类 </p>
+ 
+<p>from django.db import models<br>  class BaseModel(models.Model):<br>‘’’模型抽象基类’’’<br>create_time = models.DateTimeField(auto_now_add=True, verbose_name=’创建时间’)<br>update_time = models.DateTimeField(auto_now=True, verbose_name=’更新时间’)<br>is_delete = models.BooleanField(default=False, verbose_name=’删除标记’)<br>class Meta: </p>
+<h1 id="说明是一个抽象模型类-2"><a href="#说明是一个抽象模型类-2" class="headerlink" title="说明是一个抽象模型类"></a>说明是一个抽象模型类</h1><p>abstract = True</p>
+<p>2、异步操作celery </p>
+ 
+<h1 id="使用celery-2"><a href="#使用celery-2" class="headerlink" title="使用celery"></a>使用celery</h1><p>from celery import Celery<br>from django.conf import settings<br>from django.core.mail import send_mail<br>import time<br>import os<br>import django<br>os.environ.setdefault(“DJANGO_SETTINGS_MODULE”,”dbpc.settings”)<br>django.setup()</p>
+<h1 id="创建一个celery类的实例对象-2"><a href="#创建一个celery类的实例对象-2" class="headerlink" title="创建一个celery类的实例对象"></a>创建一个celery类的实例对象</h1><p> app = Celery(‘celery_tasks.tasks’, broker=’redis://127.0.0.1:6379/8’)<br> # 定义任务函数<br>@app.task<br>def send_register_active_email(to_email, username, token):   <br>‘’’发送邮件’’’<br>subject = ‘欢迎信息’<br>message = ‘’<br>sender = settings.EMAIL_FROM<br>receiver = [to_email]<br>html_message = ‘<h1>%s, 欢迎您成为注册会员</h1>请点击下面链接激活您的账户<br/><a href="http://127.0.0.1:8000/user/active/%s" target="_blank" rel="noopener">http://127.0.0.1:8000/user/active/%s</a>‘send_mail(subject, message, sender, receiver, html_message=html_message)<br>time.sleep(5)<br>% (username, token, token)<br>运行命令:<br>celery -A celery_tasks.tasks worker -l info -P eventle</p>
+<p>​ *注:要是没有eventlet模块,要先安装。pip<br>未完待续。Django框架总结<br>创建Django项目(pycharm)<br>一、项目名 </p>
+ 
+<p>二、anaconda环境! </p>
+ 
+<p>三、App名 </p>
+ 
+<p>框架模块使用<br>一、apps<br>把所有的app都放在一个包中起名apps </p>
+  
+<p>1、apps.py<br>from django.apps import AppConfig<br>  class IndexConfig(AppConfig):<br>name = ‘apps.index’</p>
+<p>一般会自动生成一个类,类名是app名首字母大写+Config,内容是app的路径用于在setting中注册apps,手动复制添加可自己修改然后手动添加到settin<br>的INSTALLED_APPS<br>INSTALLED_APPS = [<br>‘django.contrib.admin’,<br>‘django.contrib.auth’,<br>‘django.contrib.contenttypes’,<br>‘django.contrib.sessions’,<br>‘django.contrib.messages’,<br>‘django.contrib.staticfiles’,<br>‘apps.index.apps.IndexConfig’,<br>‘apps.user.apps.UserConfig’<br>]</p>
+<p>2、models.py<br>用于创建模型类<br>3、urls.py<br>设置浏览器请求访问url<br>from django.conf.urls import url<br>from apps.index.views import IndexView<br>urlpatterns = [<br>url(r’^index$’, IndexView.as_view(), name=’index’), # 首页<br>url(r’^$’, IndexView.as_view(), name=’index’), # 首页<br>]</p>
+<p>4、views.py<br>视图页<br>from django.shortcuts import render<br>from django.views.generic import View</p>
+<h1 id="Create-your-views-here-4"><a href="#Create-your-views-here-4" class="headerlink" title="Create your views here."></a>Create your views here.</h1><p>class IndexView(View):<br>“””首页”””<br>def get(self, request):<br>“””显示主页”””<br>return render(request, ‘index.html’)</p>
+<p>二、static<br>用于放静态文件css、js、图片等 </p>
+ 
+<p>三、templates<br>用来放前端的html页面 </p>
+ 
+<p>四、与项目同名包<br>1、settings.py<br>用来进行设置数据库,静态文件路径,app注册等。。<br>数据库 DATABASES<br>DATABASES = {<br>‘default’: {<br>‘ENGINE’: ‘django.db.backends.mysql’,<br>‘NAME’: ‘databasename’, # 数据库名<br>‘USER’: ‘root’, # 用户名<br>‘PASSWORD’: ‘123456’, # 密码<br>‘HOST’: ‘localhost’, # 主机名(数据库地址)<br>‘PORT’: 3306 # 端口<br>}<br>}</p>
+<p>MongDB<br>from pymongo import MongoClient # 导入mongdb模块</p>
+<h1 id="连接mongodb-3"><a href="#连接mongodb-3" class="headerlink" title="连接mongodb"></a>连接mongodb</h1><p>client = MongoClient(“mongodb://localhost:27017/“)<br>mydb = client[‘douban’] # 数据库名</p>
+<p>创建一个类接收settings中的mydb,然后再创建设置表对象<br>from dbpc.settings import mydb</p>
+<p>class Coll:<br>book_collection = mydb[‘book’]<br>av_collection = mydb[‘movie’]</p>
+<p>语言:中文 LANGUAGE_CODE<br>LANGUAGE_CODE = ‘zh-hans’<br>TIME_ZONE = ‘Asia/Shanghai’</p>
+<p>静态文件路径<br>STATIC_URL = ‘/static/‘<br>STATICFILES_DIRS = [os.path.join(BASE_DIR, ‘static’)]</p>
+<p>缓存设置:redis# Django的缓存配置<br>CACHES = {<br>“default”: {<br>“BACKEND”: “django_redis.cache.RedisCache”,<br>“LOCATION”: “redis://127.0.0.1:6379/9”,<br>“OPTIONS”: {<br>“CLIENT_CLASS”: “django_redis.client.DefaultClient”,}<br>}<br>}</p>
+<p>session设置 </p>
+<h1 id="配置session存储-3"><a href="#配置session存储-3" class="headerlink" title="配置session存储"></a>配置session存储</h1><p>SESSION_ENGINE = “django.contrib.sessions.backends.cache”<br>SESSION_CACHE_ALIAS = “default”</p>
+<p>发送邮件设置 </p>
+<h1 id="发送邮件配置-3"><a href="#发送邮件配置-3" class="headerlink" title="发送邮件配置"></a>发送邮件配置</h1><p>EMAIL_BACKEND = ‘django.core.mail.backends.smtp.EmailBackend’</p>
+<h1 id="smpt服务地址-3"><a href="#smpt服务地址-3" class="headerlink" title="smpt服务地址"></a>smpt服务地址</h1><p>EMAIL_HOST = ‘smtp.qq.com’EMAIL_PORT = 25</p>
+<h1 id="发送邮件的邮箱-3"><a href="#发送邮件的邮箱-3" class="headerlink" title="发送邮件的邮箱"></a>发送邮件的邮箱</h1><p>EMAIL_HOST_USER = ‘971861624@qq.com’</p>
+<h1 id="在邮箱中设置的客户端授权密码-3"><a href="#在邮箱中设置的客户端授权密码-3" class="headerlink" title="在邮箱中设置的客户端授权密码"></a>在邮箱中设置的客户端授权密码</h1><p>EMAIL_HOST_PASSWORD = ‘izqelofgslnrbcde’</p>
+<h1 id="收件人看到的发件人-3"><a href="#收件人看到的发件人-3" class="headerlink" title="收件人看到的发件人"></a>收件人看到的发件人</h1><p>EMAIL_FROM = ‘xx招生<a href="mailto:&#57;&#x37;&#x31;&#56;&#x36;&#49;&#54;&#50;&#52;&#64;&#113;&#113;&#46;&#x63;&#x6f;&#109;">&#57;&#x37;&#x31;&#56;&#x36;&#49;&#54;&#50;&#52;&#64;&#113;&#113;&#46;&#x63;&#x6f;&#109;</a>‘</p>
+<p>登录url </p>
+<h1 id="配置登录url地址-3"><a href="#配置登录url地址-3" class="headerlink" title="配置登录url地址"></a>配置登录url地址</h1><p>LOGIN_URL = ‘/user/login’</p>
+<p>*注:EMAIL_FROM&lt;&gt;中的邮箱必须与EMAIL_HOST_USER相同。<br>等等。。以后继续添加<br>2、urls.py<br>同apps中urls,在这里指向apps中的urls<br>from django.contrib import admin<br>from django.urls import path<br>from django.conf.urls import url, include<br>urlpatterns = [<br>path(‘admin/‘, admin.site.urls),<br>url(r’^user/‘, include((‘apps.user.urls’, ‘user’), namespace=’user’)), # 用户模块url(r’^’, include((‘apps.index.urls’, ‘index’), namespace=’index’)), # 首页模块<br>]</p>
+<p>五、manage.py<br>项目的执行文件,命令:<br>1、运行<br>runserver 127.0.0.1:8000<br>2、生成数据库<br>python manage.py makemigrations3、迁移文件生成表<br>python manage.py migrate<br>4、创建超级管理员<br>createsuperuser</p>
+  
+<p>在这里可设置运行命令。<br>如:runserver 127.0.0.1:8000<br>设置后,直接运行文件可启动项目<br>或者在pycharm中自带的终端进行运行 </p>
+ 
+<p>配置环境<br>如果还没配置环境,先安装anaconda<br>然后:file-&gt;settings-&gt;project:项目名-&gt;project Interpreter.<br>￼<br>￼<br>￼ <br>这三个都行,如第一个: </p>
+ 
+ 
+<p>在这里选择anaconda里的python.exe就行<br>拓展<br>一、模块拓展<br>1、自定义模型类 </p>
+ 
+<p>from django.db import models<br>  class BaseModel(models.Model):<br>‘’’模型抽象基类’’’<br>create_time = models.DateTimeField(auto_now_add=True, verbose_name=’创建时间’)<br>update_time = models.DateTimeField(auto_now=True, verbose_name=’更新时间’)<br>is_delete = models.BooleanField(default=False, verbose_name=’删除标记’)<br>class Meta: </p>
+<h1 id="说明是一个抽象模型类-3"><a href="#说明是一个抽象模型类-3" class="headerlink" title="说明是一个抽象模型类"></a>说明是一个抽象模型类</h1><p>abstract = True</p>
+<p>2、异步操作celery </p>
+ 
+<h1 id="使用celery-3"><a href="#使用celery-3" class="headerlink" title="使用celery"></a>使用celery</h1><p>from celery import Celery<br>from django.conf import settings<br>from django.core.mail import send_mail<br>import time<br>import os<br>import django<br>os.environ.setdefault(“DJANGO_SETTINGS_MODULE”,”dbpc.settings”)<br>django.setup()</p>
+<h1 id="创建一个celery类的实例对象-3"><a href="#创建一个celery类的实例对象-3" class="headerlink" title="创建一个celery类的实例对象"></a>创建一个celery类的实例对象</h1><p> app = Celery(‘celery_tasks.tasks’, broker=’redis://127.0.0.1:6379/8’)<br> # 定义任务函数<br>@app.task<br>def send_register_active_email(to_email, username, token):   <br>‘’’发送邮件’’’<br>subject = ‘欢迎信息’<br>message = ‘’<br>sender = settings.EMAIL_FROM<br>receiver = [to_email]<br>html_message = ‘<h1>%s, 欢迎您成为注册会员</h1>请点击下面链接激活您的账户<br/><a href="http://127.0.0.1:8000/user/active/%s" target="_blank" rel="noopener">http://127.0.0.1:8000/user/active/%s</a>‘send_mail(subject, message, sender, receiver, html_message=html_message)<br>time.sleep(5)<br>% (username, token, token)<br>运行命令:<br>celery -A celery_tasks.tasks worker -l info -P eventle</p>
+<p>​ *注:要是没有eventlet模块,要先安装。pip<br>未完待续。<br>from pymongo import MongoClient # 导入mongdb模块</p>
+<h1 id="连接mongodb-4"><a href="#连接mongodb-4" class="headerlink" title="连接mongodb"></a>连接mongodb</h1><p>client = MongoClient(“mongodb://localhost:27017/“)<br>mydb = client[‘douban’] # 数据库名</p>
+<p>创建一个类接收settings中的mydb,然后再创建设置表对象<br>from dbpc.settings import mydb</p>
+<p>class Coll:<br>book_collection = mydb[‘book’]<br>av_collection = mydb[‘movie’]</p>
+<p>语言:中文 LANGUAGE_CODE<br>LANGUAGE_CODE = ‘zh-hans’<br>TIME_ZONE = ‘Asia/Shanghai’</p>
+<p>静态文件路径<br>STATIC_URL = ‘/static/‘<br>STATICFILES_DIRS = [os.path.join(BASE_DIR, ‘static’)]</p>
+<p>缓存设置:redis# Django的缓存配置<br>CACHES = {<br>“default”: {<br>“BACKEND”: “django_redis.cache.RedisCache”,<br>“LOCATION”: “redis://127.0.0.1:6379/9”,<br>“OPTIONS”: {<br>“CLIENT_CLASS”: “django_redis.client.DefaultClient”,}<br>}<br>}</p>
+<p>session设置 </p>
+<h1 id="配置session存储-4"><a href="#配置session存储-4" class="headerlink" title="配置session存储"></a>配置session存储</h1><p>SESSION_ENGINE = “django.contrib.sessions.backends.cache”<br>SESSION_CACHE_ALIAS = “default”</p>
+<p>发送邮件设置 </p>
+<h1 id="发送邮件配置-4"><a href="#发送邮件配置-4" class="headerlink" title="发送邮件配置"></a>发送邮件配置</h1><p>EMAIL_BACKEND = ‘django.core.mail.backends.smtp.EmailBackend’</p>
+<h1 id="smpt服务地址-4"><a href="#smpt服务地址-4" class="headerlink" title="smpt服务地址"></a>smpt服务地址</h1><p>EMAIL_HOST = ‘smtp.qq.com’EMAIL_PORT = 25</p>
+<h1 id="发送邮件的邮箱-4"><a href="#发送邮件的邮箱-4" class="headerlink" title="发送邮件的邮箱"></a>发送邮件的邮箱</h1><p>EMAIL_HOST_USER = ‘971861624@qq.com’</p>
+<h1 id="在邮箱中设置的客户端授权密码-4"><a href="#在邮箱中设置的客户端授权密码-4" class="headerlink" title="在邮箱中设置的客户端授权密码"></a>在邮箱中设置的客户端授权密码</h1><p>EMAIL_HOST_PASSWORD = ‘izqelofgslnrbcde’</p>
+<h1 id="收件人看到的发件人-4"><a href="#收件人看到的发件人-4" class="headerlink" title="收件人看到的发件人"></a>收件人看到的发件人</h1><p>EMAIL_FROM = ‘xx招生<a href="mailto:&#57;&#x37;&#49;&#56;&#54;&#x31;&#x36;&#50;&#52;&#x40;&#113;&#x71;&#x2e;&#99;&#111;&#x6d;">&#57;&#x37;&#49;&#56;&#54;&#x31;&#x36;&#50;&#52;&#x40;&#113;&#x71;&#x2e;&#99;&#111;&#x6d;</a>‘</p>
+<p>登录url </p>
+<h1 id="配置登录url地址-4"><a href="#配置登录url地址-4" class="headerlink" title="配置登录url地址"></a>配置登录url地址</h1><p>LOGIN_URL = ‘/user/login’</p>
+<p>*注:EMAIL_FROM&lt;&gt;中的邮箱必须与EMAIL_HOST_USER相同。<br>等等。。以后继续添加<br>2、urls.py<br>同apps中urls,在这里指向apps中的urls<br>from django.contrib import admin<br>from django.urls import path<br>from django.conf.urls import url, include<br>urlpatterns = [<br>path(‘admin/‘, admin.site.urls),<br>url(r’^user/‘, include((‘apps.user.urls’, ‘user’), namespace=’user’)), # 用户模块url(r’^’, include((‘apps.index.urls’, ‘index’), namespace=’index’)), # 首页模块<br>]</p>
+<p>五、manage.py<br>项目的执行文件,命令:<br>1、运行<br>runserver 127.0.0.1:8000<br>2、生成数据库<br>python manage.py makemigrations3、迁移文件生成表<br>python manage.py migrate<br>4、创建超级管理员<br>createsuperuser</p>
+  
+<p>在这里可设置运行命令。<br>如:runserver 127.0.0.1:8000<br>设置后,直接运行文件可启动项目<br>或者在pycharm中自带的终端进行运行 </p>
+ 
+<p>配置环境<br>如果还没配置环境,先安装anaconda<br>然后:file-&gt;settings-&gt;project:项目名-&gt;project Interpreter.<br>￼<br>￼<br>￼ <br>这三个都行,如第一个: </p>
+ 
+ 
+<p>在这里选择anaconda里的python.exe就行<br>拓展<br>一、模块拓展<br>1、自定义模型类 </p>
+ 
+<p>from django.db import models<br>  class BaseModel(models.Model):<br>‘’’模型抽象基类’’’<br>create_time = models.DateTimeField(auto_now_add=True, verbose_name=’创建时间’)<br>update_time = models.DateTimeField(auto_now=True, verbose_name=’更新时间’)<br>is_delete = models.BooleanField(default=False, verbose_name=’删除标记’)<br>class Meta: </p>
+<h1 id="说明是一个抽象模型类-4"><a href="#说明是一个抽象模型类-4" class="headerlink" title="说明是一个抽象模型类"></a>说明是一个抽象模型类</h1><p>abstract = True</p>
+<p>2、异步操作celery </p>
+ 
+<h1 id="使用celery-4"><a href="#使用celery-4" class="headerlink" title="使用celery"></a>使用celery</h1><p>from celery import Celery<br>from django.conf import settings<br>from django.core.mail import send_mail<br>import time<br>import os<br>import django<br>os.environ.setdefault(“DJANGO_SETTINGS_MODULE”,”dbpc.settings”)<br>django.setup()</p>
+<h1 id="创建一个celery类的实例对象-4"><a href="#创建一个celery类的实例对象-4" class="headerlink" title="创建一个celery类的实例对象"></a>创建一个celery类的实例对象</h1><p> app = Celery(‘celery_tasks.tasks’, broker=’redis://127.0.0.1:6379/8’)<br> # 定义任务函数<br>@app.task<br>def send_register_active_email(to_email, username, token):   <br>‘’’发送邮件’’’<br>subject = ‘欢迎信息’<br>message = ‘’<br>sender = settings.EMAIL_FROM<br>receiver = [to_email]<br>html_message = ‘<h1>%s, 欢迎您成为注册会员</h1>请点击下面链接激活您的账户<br/><a href="http://127.0.0.1:8000/user/active/%s" target="_blank" rel="noopener">http://127.0.0.1:8000/user/active/%s</a>‘send_mail(subject, message, sender, receiver, html_message=html_message)<br>time.sleep(5)<br>% (username, token, token)<br>运行命令:<br>celery -A celery_tasks.tasks worker -l info -P eventle</p>
+<p>​ *注:要是没有eventlet模块,要先安装。pip<br>未完待续。。<br> –</p>
 
       
 
@@ -264,7 +508,7 @@
     <a class="close js-modal-close" href="javascript:;" target="_blank" rel="noopener"><i class="icon icon-close"></i></a>
     <p>扫一扫，分享到微信</p>
     <div class="wx-qrcode">
-      <img src="//pan.baidu.com/share/qrcode?url=http://yoursite.com/2019/11/12/hello-world/" alt="微信分享二维码">
+      <img src="//pan.baidu.com/share/qrcode?url=http://yoursite.com/2019/11/13/Django%E6%A1%86%E6%9E%B6%E6%80%BB%E7%BB%93/" alt="微信分享二维码">
     </div>
 </div>
 
@@ -278,15 +522,11 @@
   
 <nav id="article-nav">
   
-    <a href="/2019/11/12/test/" id="article-nav-newer" class="article-nav-link-wrap">
-      <i class="icon-circle-left"></i>
-      <div class="article-nav-title">
-        
-          test
-        
-      </div>
-    </a>
   
+    <a href="/2019/11/13/Django%E6%A1%86%E6%9E%B6%E6%80%BB%E7%BB%931/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">Django框架总结1</div>
+      <i class="icon-circle-right"></i>
+    </a>
   
 </nav>
 
